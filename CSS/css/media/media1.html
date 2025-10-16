@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            padding: 20px;
+        }
+        @media(width<=400)
+        {
+              body{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            padding: 20px;
+        }
+        }
+        /* screen only */
+        @media screen{
+            body::before{
+                content: "this is visible on screen";
+                display: block;
+                font-weight: bold;
+            }
+        }
+        /* print only */
+        @media print{
+            body{
+                background-color: aquamarine;
+                color: purple;
+            }
+            body::before{
+                content: "print version";
+                display: block;
+                font-weight: 900;
+            }
+        }
+        @media(min-width:600px){
+            body{
+                background-color: yellowgreen;
+            }
+        }
+        @media(max-width:300px){
+            body{
+                background-color: antiquewhite;
+            }
+        }
+        @media(min-width:600px) and (max-width:300px){
+            body{
+                background-color: red;
+            }
+        }
+        @media (orientation: portrait){
+            body{
+                background-color: green;
+            }
+            p{
+                color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive media query</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, officiis.</p>
+</body>
+</html>

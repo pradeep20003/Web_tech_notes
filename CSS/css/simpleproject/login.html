@@ -1,0 +1,76 @@
+<!-- login-form, email password,button signin,a->register -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-page</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+           background-color: aqua;
+        }
+        .container{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            margin-top:200px ;
+            margin-left: 400px;
+        }
+        h1{
+            text-align: center;
+            margin-top: 10px;
+        }
+        .email{
+            text-align: center;
+            margin-top: 10px;
+            font-weight: 200px;
+            margin-top: 20px ;
+        }
+         .password{
+            text-align: center;
+            margin-top: 10px;
+            font-weight: 200px;
+            margin-top: 20px ;
+        }
+        .btn{
+           margin-top: 10px;
+           margin-bottom: 10px;
+        }
+        button{
+            border: 2px solid black;
+            border-radius: 20%;
+            height: 30px;
+            width: 60px;
+        }
+        .para{
+            font-weight: 500px;
+            font-size: 20px;
+        }
+    
+    </style>
+ </head>
+ <body>
+    <div class="container">
+        <form action="">
+            <h1>Login-page</h1>
+            <div class="email">
+                <label for="">Email :-</label>
+                <input type="email" placeholder="Enter your Email">
+            </div>
+            <div class="password">
+                <label for="">password</label>
+                <input type="password" maxlength="12" placeholder="Enter your Password">
+                <div class="btn">
+                    <button type="submit">SignIn</button>
+                    </div>
+                <p class="para">please register first if you not <a href="register.html">Register</a></p>
+         
+        </form>
+    </div>
+ </body>
+ </html>

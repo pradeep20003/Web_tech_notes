@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link{
+            background-color: red;
+            color: yellow;
+        }
+        a:active{
+            background-color: purple;
+        }
+        a:visited{
+            background-color: blanchedalmond;
+        }
+        input[type=radio]:checked{
+            height: 200px;
+            width: 200px;
+            accent-color: red;
+        }
+        input[type=checkbox]:checked{
+            height: 200px;
+            width: 200px;
+            accent-color: green;
+        }
+        button:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://www.google.com">Click for google</a> <br>
+
+    <label for="gen">Gender :</label>
+    <input type="radio" name="gen">male
+    <input type="radio" name="gen">female
+    <input type="radio" name="gen">other
+   <br>
+
+    <label for="hob">Hobbies :</label>
+    <input type="checkbox" name="hob">playing
+    <input type="checkbox" name="hob">singing
+    <input type="checkbox" name="hob">dancing
+
+    <button>Submit</button>
+</body>
+</html>

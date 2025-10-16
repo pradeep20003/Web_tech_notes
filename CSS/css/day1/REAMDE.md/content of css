@@ -1,0 +1,157 @@
+
+we can write the css in three ways :-
+
+1. inline -> in same line
+2. internal -> in same page but inside head tag
+3. external -> in diff page
+
+
+inline > internal > external
+
+
+===========================================
+
+
+selector in css :- 
+
+1. id
+2. class
+3. element 
+4. universal selector *
+
+
+
+Types of Selector :- 
+1. Combinator Selector
+2. Pseudo class Selector
+3. Pseudo Element Selector
+4. Pseudo Child Selector
+
+1. Combinator Selector :- 
+
+-> Descendent Selector  -> space[ ] -> direct and indirect child 
+-> Child Selector  -> >   -> only direct child
+-> Adjacent Selector  -> + -> right after to element 
+-> General Sibling selector  -> ~
+[11:08 AM, 10/8/2025] Bunty Sir Debugshala: CSS :- cascading style sheets
+
+we can write the css in three ways :-
+
+1. inline -> in same line
+2. internal -> in same page but inside head tag
+3. external -> in diff page
+
+
+inline > internal > external
+
+
+===========================================
+
+
+selector in css :- 
+
+1. id
+2. class
+3. element 
+4. universal selector *
+
+
+
+Types of Selector :- 
+1. Combinator Selector
+2. Pseudo class Selector
+3. Pseudo Element Selector
+4. Pseudo Child Selector
+
+1. Combinator Selector :- 
+
+-> Descendent Selector  -> space[ ] -> direct and indirect child 
+-> Child Selector  -> >   -> only direct child
+-> Adjacent Selector  -> + -> right after to element 
+-> General Sibling selector  -> ~
+
+=================================================
+Day 2
+
+Pseudo element Selector
+
+denoted  ::
+1. first letter 
+2.first line
+3.before 
+4. after 
+5. marker
+6.selection
+
+================================================
+Pseudo class Selector
+
+denoted :
+1.link
+2.active
+3.visited
+4.checked
+5.hover
+
+===============================================
+logo or svg :
+
+instagram 
+whatsapp
+
+1. cdnjs 
+2. search font awesome :- copy the link and paste in the head tag
+3. search font awesome on google :- instagram 
+
+
+
+========================================
+
+goole font :- 
+
+1. google :- google font :- get font :- get embed code :- copy the libray paste in the head tag :- 
+
+
+===============================================================
+pseudo Child selector :- 
+
+first child  :- it will take only first child , inside div and body also
+last child  :- it will take only last child , inside div and body also
+nth child(even/odd) :-  it will take based on condition child inside the body
+first of type :- it will take only first child inside the body
+last of type :-  it will take only last child inside the body
+
+
+test property :- 
+color
+background color
+text-decoration
+text-align
+text-transform
+text-shadow
+letter-spcaing
+word-spacing
+light-height
+
+=====================================================================
+css Box Model :- The CSS box model is a container that contains 
+    multiple properties including borders, margin, 
+    padding, and the content itself.
+
+1. content :- we can say that image, text.
+2. padding :- gap between content or boder.
+3. border :-  border is nothing but around/outside the padding.
+4. Margin :- MArgin is nothing but around/outside the border.
+
+
+
+
+
+
+CSS Position :- you can positioned the image or content.
+
+1. static :- it wont accept top , right ,bottom or left.
+2. Relative :- it will accept all top , right ,bottom or left.
+3. Absolute :- take the top , left , right or bottom from parent container.
+4. fixed :- we can fixed the content .
+5. sticky :- fixed + relative :- realtive , fixed only for the self container but dynamic for other container.

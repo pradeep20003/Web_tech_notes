@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal details</title>
+    <style>
+         form div {
+            background-color: yellow;
+        }
+        form div ol li{
+            background-color: green;
+        }
+         form div ol li ul li{
+            color: red;
+        }
+         form div ol li ul li +li{
+            color: blue;
+        }
+         form div ol li ul li +li +li{
+            color: black;
+        }
+         form div ol li ul li +li +li ol li{
+            color: purple;
+        }
+          form div ol li ul li +li +li ol li +li{
+            color: antiquewhite;
+        }
+        form div ol li+li{
+            color: blue;
+        }
+        form div ol li+li ol li{
+            color:yellow;
+        }
+        form div ol li+li ol li +li{
+            color:orangered;
+        }
+       form +div{
+            background-color: yellow;
+            height: 200px;
+            width: 200px;
+        }
+          form +div ol  {
+            background-color: red;
+            
+        }
+         form +div ol div li span{
+            background-color: blue;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <ol>
+                <li>personal details 
+                    <ul type="square">
+                        <li><label for="">Name</label>
+                        <input type="text"></li>
+                        <li><label for="">LastName</label>
+                        <input type="text"></li>
+                        <li>other details 
+                            <ol>
+                                <li><label for="">phoneno</label>
+                                <input type="tel"></li>
+                                <li><label for="">Age</label>
+                                <input type="number"></li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+                <li>Additional details 
+                    <ol start="100">
+                        <li><label for="">password</label>
+                        <input type="password"></li>
+                        <li><label for="">File</label>
+                            <input type="file"></li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+    </form>
+    <div>
+        <ol>
+            <div>
+            <li><span>Blue</span></li>
+            </div>
+        </ol>
+    </div>
+</body>
+</html>

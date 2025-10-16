@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class and ID</title>
+</head>
+<body>
+    <p class="c1">hlw this is pradeep Singh</p>
+    <p class="c2">i am from rewa m.p.</p>
+    <p class="c3">now i am learning coding in mern stack</p>
+
+    <p id="paraClick">hlw this is pradeep Singh</p>
+    <p id="paraClick">i am from rewa m.p.</p>
+    <p id="paraClick">now i am learning coding in mern stack</p>
+
+   <script>
+     const elements = document.querySelectorAll("#paraClick");
+elements.forEach(elem => {
+  elem.onclick = function(e) {
+    console.log("hy bro");
+  };
+});
+
+   </script>
+    
+</body>
+</html>

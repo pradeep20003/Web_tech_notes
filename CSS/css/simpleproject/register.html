@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <style>
+         *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+           background-color: aqua;
+        }
+        .container{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            margin-top:300px ;
+            margin-left: 500px;
+            
+        }
+        .firstname{
+            margin-top: 20px;
+            
+        }
+        form{
+            text-align: center;
+        }
+         .btn{
+           margin-top: 10px;
+           margin-bottom: 10px;
+        }
+        button{
+            border: 2px solid black;
+            border-radius: 20%;
+            height: 30px;
+            width: 60px;
+        }
+         .para{
+            font-weight: 500px;
+            font-size: 20px;
+        }
+        .firstname{
+            margin-bottom: 10px;
+        }
+          .lastname{
+            margin-bottom: 10px;
+        }
+          .Email{
+            margin-bottom: 10px;
+        }
+          .Pass{
+            margin-bottom: 10px;
+        }
+          .tele{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1>Register Form</h1>
+        <div class="firstname">
+            <label for="">FirstName</label>
+            <input type="text">
+        </div>
+         <div class="lastname">
+            <label for="">LastName</label>
+            <input type="text">
+        </div>
+         <div class="Email">
+            <label for="">Email</label>
+            <input type="email" placeholder="xyz@email.com" required >
+        </div>
+         <div class="Pass">
+            <label for="">password</label>
+            <input type="password" placeholder="enter password" required >
+        </div>
+         <div class="tele">
+            <label for="">Phone</label>
+            <input type="tel" placeholder="9111015579" maxlength="10" >
+        </div>
+       <div class="btn">
+                    <button type="submit">SignUp</button>
+                    </div>
+                    <p class="para">Already! register <a href="login.html">Login-page</a></p>
+    </form>
+    </div>
+    </div>
+</body>
+</html>
